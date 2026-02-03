@@ -12,12 +12,13 @@ public class RelacionMapper {
 
     private final MessageUtil messageUtil;
 
-    public RelacionResponse toResponse (Relacion entity){
-        if(entity== null) return null;
-        String name = messageUtil.getMessageOrDefault("relations."+ entity.getCode(), entity.getName());
+    public RelacionResponse toResponse(Relacion entity) {
+        if (entity == null) return null;
+        String code = "relations." + entity.getCode();
+        String name = messageUtil.getMessageOrDefault(code, entity.getName());
         return RelacionResponse.builder()
                 .code(entity.getCode())
-                .name(entity.getName())
+                .name(name)
                 .build();
     }
 }

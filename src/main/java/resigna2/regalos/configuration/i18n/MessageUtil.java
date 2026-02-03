@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class MessageUtil {
-    private static final Logger log = LoggerFactory.getLogger(MessageUtil.class);
+
     private MessageSource messageSource;
 
     public MessageUtil(MessageSource messageSource) {
