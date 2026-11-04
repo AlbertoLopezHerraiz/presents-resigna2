@@ -1,0 +1,12 @@
+--CREATE TABLE if not exists regalos.components (
+--    id uuid NOT NULL DEFAULT gen_random_uuid(),
+--    name VARCHAR(20) NOT NULL,
+--    state_id VARCHAR(5),
+--    quantity INT
+--    PRIMARY KEY (id),
+--);
+--
+--INSERT INTO regalos.component_states (code, name) VALUES
+--('S', 'Solid'),
+--('L', 'Liquid'),
+--('G', 'Gas');

@@ -1,6 +1,7 @@
-CREATE TABLE regalos.relations (
+CREATE TABLE if not exists regalos.relations (
     code VARCHAR(5) NOT NULL,
-    name VARCHAR(20) NOT NULL
+    name VARCHAR(20) NOT NULL,
+    PRIMARY KEY (code)
 );
 
 INSERT INTO regalos.relations (code, name) VALUES
