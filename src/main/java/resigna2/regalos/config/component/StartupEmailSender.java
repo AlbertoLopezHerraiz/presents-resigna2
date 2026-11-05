@@ -1,3 +1,4 @@
+/*
 package resigna2.regalos.config.component;
 
 import lombok.RequiredArgsConstructor;
@@ -30,3 +31,4 @@ public class StartupEmailSender {
         }
     }
 }
+*/
