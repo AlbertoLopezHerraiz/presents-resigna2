@@ -16,7 +16,7 @@ public class Persona {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     @Column(name = "id")
-    private UUID idPersona;
+    private UUID id;
 
     @Column(name = "name")
     private String nombre;
